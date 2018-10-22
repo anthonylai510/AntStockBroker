@@ -1,0 +1,2 @@
+CD /D D:\Python_RealTime_SocketIO_AASTOCK_Top20
+D:\Anaconda3\Scripts\activate.bat D:\Anaconda3\envs\tensorflow && python D:\Python_RealTime_SocketIO_AASTOCK_Top20\get_realtime_aastock_top20_stock_data.py
