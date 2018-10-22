@@ -13,7 +13,5 @@ Real-Time Stock List with MACD > EMA and MACD < 0
 ![real-time MACD > EMA and MACD < 0 results](docs/MACD_EMA2.png)
 
 ## 4.Real-Time Chart
-Real-Time Stock Chart
-![real-time stock chart demo]
-(https://www.youtube.com/watch?v=2asnITNytdQ)
+Real-Time Stock Chart Demo (https://www.youtube.com/watch?v=2asnITNytdQ)
 
