@@ -54,15 +54,15 @@ in the same directory, run the following script and navigate to http://localhost
 ## 3.Real-Time Stock List Data with [MACD > EMA and MACD < 0]
 Real-Time Stock List Data where its previous day [MACD > EMA and MACD < 0]  
 Requirements:  
-	matplotlib==2.0.2
-	dask==0.19.4
-	Flask_SocketIO==2.9.3
-	Flask==1.0.2
-	eventlet==0.23.0
-	mpl_finance==0.10.0
-	selenium==3.12.0
-	numpy==1.14.3
-	pandas==0.23.4
+	matplotlib==2.0.2  
+	dask==0.19.4  
+	Flask_SocketIO==2.9.3  
+	Flask==1.0.2  
+	eventlet==0.23.0  
+	mpl_finance==0.10.0  
+	selenium==3.12.0  
+	numpy==1.14.3  
+	pandas==0.23.4  
 	beautifulsoup4==4.6.3  
 
 To get Real-Time Stock List data with its previous day [MACD > EMA and MACD < 0],  
@@ -78,12 +78,12 @@ in the same directory, run the following script and navigate to http://localhost
 ## 4.Real-Time Stock Chart
 Real-Time Stock Chart using mpl_finance.candlestick_ochl and mpl_finance.volume_overlay3
 Requirements:  
-	dask==0.19.4
-	selenium==3.12.0
-	matplotlib==2.0.2
-	numpy==1.14.3
-	pandas==0.23.4
-	mpl_finance==0.10.0
+	dask==0.19.4  
+	selenium==3.12.0  
+	matplotlib==2.0.2  
+	numpy==1.14.3  
+	pandas==0.23.4  
+	mpl_finance==0.10.0  
 	beautifulsoup4==4.6.3  
 
 To run real-time stock chart, first we have to get Real-Time Stock Data. Do the following steps:
