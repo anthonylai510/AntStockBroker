@@ -24,6 +24,7 @@ To display real-time AASTOCK Top 20 Stock List Data on web page,
 in the same directory, run the following script and navigate to http://localhost:5001  
 	`python app.py`  
 
+The following screen shot showing AASTOCK Top 20 Stock List Data is being downloaded.
 ![AASTOCK top 20 Stock List Data real-time Streaming results](docs/Top20.png)
 
 ## 2.Real-Time Stock List Data with [MACD > EMA and MACD > 0]  
