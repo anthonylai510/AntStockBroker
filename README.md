@@ -15,14 +15,14 @@ Requirements:
 	beautifulsoup4==4.6.3  
 
 To get real-time AASTOCK Top 20 Stock List Data,  
-change to the directory of [Py_RealTime_SocketIO_AASTOCK_Top20] and run the following script  
-	python get_realtime_aastock_top20_stock_data.py  
+change to the directory of [Py_RealTime_SocketIO_AASTOCK_Top20] and run the following script:  
+	`python get_realtime_aastock_top20_stock_data.py`  
 
 ![Getting AASTOCK top 20 Stock List Data](docs/Getting_AASTOCK_Top20_Stock_List_Data.png)
 
 To display real-time AASTOCK Top 20 Stock List Data on web page,  
 in the same directory, run the following script and navigate to http://localhost:5001  
-	python app.py  
+	`python app.py`  
 
 ![AASTOCK top 20 Stock List Data real-time Streaming results](docs/Top20.png)
 
@@ -39,15 +39,16 @@ Requirements:
 	numpy==1.14.3  
 	dask==0.19.4  
 	beautifulsoup4==4.6.3  
+
 To get Real-Time Stock List data with its previous day MACD > EMA and MACD > 0,  
-change to the directory of [Python_RealTime_SocketIO_MACD_Over_EMA_Task] and run the following script  
-	python py_thread_get_realtime_money18_stock_data.py  
+change to the directory of [Python_RealTime_SocketIO_MACD_Over_EMA_Task] and run the following script:  
+	`python py_thread_get_realtime_money18_stock_data.py`  
 
 To display the above real-time Stock List Data on web page,  
 in the same directory, run the following script and navigate to http://localhost:6003  
-	python app.py  
+	`python app.py`  
 
-	![real-time MACD > EMA and MACD > 0 results](docs/MACD_EMA1.png)
+![real-time MACD > EMA and MACD > 0 results](docs/MACD_EMA1.png)
 
 ## 3.Real-Time Stock List Data with MACD > EMA and MACD < 0
 Real-Time Stock List Data where its previous day MACD > EMA and MACD < 0  
@@ -62,13 +63,14 @@ Requirements:
 	numpy==1.14.3
 	pandas==0.23.4
 	beautifulsoup4==4.6.3  
+
 To get Real-Time Stock List data with its previous day MACD > EMA and MACD < 0,  
-change to the directory of [Python_RealTime_SocketIO_MACD_Over_EMA_Task2] and run the following script  
-	python py_thread_get_realtime_money18_stock_data.py  
+change to the directory of [Python_RealTime_SocketIO_MACD_Over_EMA_Task2] and run the following script:  
+	`python py_thread_get_realtime_money18_stock_data.py`  
 
 To display the above real-time Stock List Data on web page,  
 in the same directory, run the following script and navigate to http://localhost:6004  
-	python app.py  
+	`python app.py`  
 
 ![real-time MACD > EMA and MACD < 0 results](docs/MACD_EMA2.png)
 
