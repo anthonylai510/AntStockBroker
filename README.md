@@ -76,7 +76,7 @@ in the same directory, run the following script and navigate to http://localhost
 ![real-time MACD > EMA and MACD < 0 results](docs/MACD_EMA2.png)
 
 ## 4.Real-Time Stock Chart
-Real-Time Stock Chart using mpl_finance.candlestick_ochl and mpl_finance.volume_overlay3  
+Real-Time Stock Chart using `mpl_finance.candlestick_ochl` and `mpl_finance.volume_overlay3`  
 Requirements:  
 	dask==0.19.4  
 	selenium==3.12.0  
@@ -88,15 +88,19 @@ Requirements:
 
 To run real-time stock chart, first we have to get Real-Time Stock Data. Do the following steps:
 
-i.change to the directory of `[Python_RealTime_Chart]`, open the file `[Task_Ticker.csv]` and
+i. change to the directory of `[Python_RealTime_Chart]`, open the file `[Task_Ticker.csv]` and
 edit the stock list as wanted. `(The list is limited to 10 stocks only)`
 
-ii.change to the directory of `[Python_RealTime_Chart\Taskn]` where n = 0,1,2,..10
+ii. change to the directory of `[Python_RealTime_Chart\Taskn]` where n = 0,1,2,..10
 and run the following script:  
 	`python py_thread_get_realtime_money18_stock_data.py`  
 
-iii.in the same directory above, run the following script to display real-time stock chart:
+iii. in the same directory above, run the following script to display real-time stock chart:
 	`python python_realtime_chart.py`  
 
-Real-Time Stock Chart Demo (https://www.youtube.com/watch?v=2asnITNytdQ)
+The following screen shot showing the real-time charts
+![real-time charts](docs/Real-Time_Chart_demo.png)
+
+Click the link below to watch Real-Time Stock Chart Demo  
+(https://www.youtube.com/watch?v=2asnITNytdQ)
 
