@@ -76,7 +76,7 @@ in the same directory, run the following script and navigate to http://localhost
 ![real-time MACD > EMA and MACD < 0 results](docs/MACD_EMA2.png)
 
 ## 4.Real-Time Stock Chart
-Real-Time Stock Chart using mpl_finance.candlestick_ochl and mpl_finance.volume_overlay3
+Real-Time Stock Chart using mpl_finance.candlestick_ochl and mpl_finance.volume_overlay3  
 Requirements:  
 	dask==0.19.4  
 	selenium==3.12.0  
