@@ -24,8 +24,20 @@ To display real-time AASTOCK Top 20 Stock List Data on web page, run the followi
 
 ![AASTOCK top 20 Stock List Data real-time Streaming results](docs/Top20.png)
 
-## 2.Real-Time MACD > EMA and MACD > 0
-Real-Time Stock List with MACD > EMA and MACD > 0
+## 2.Real-Time Stock List Data where its previous day MACD > EMA and MACD > 0  
+Requirements:  
+	matplotlib==2.0.2  
+	Flask==1.0.2  
+	eventlet==0.23.0  
+	mpl_finance==0.10.0  
+	pandas==0.23.4  
+	Flask_SocketIO==2.9.3  
+	selenium==3.12.0  
+	numpy==1.14.3  
+	dask==0.19.4  
+	beautifulsoup4==4.6.3  
+To get Real-Time Stock List data with its previous day MACD > EMA and MACD > 0, run the following script..
+	python py_thread_get_realtime_money18_stock_data.py  
 ![real-time MACD > EMA and MACD > 0 results](docs/MACD_EMA1.png)
 
 ## 3.Real-Time MACD > EMA and MACD < 0
