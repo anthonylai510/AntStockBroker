@@ -1,7 +1,7 @@
 # Ant Stock Broker
 
 ## 1.AASTOCK Top 20 Stock List Data Real-Time Streaming 
-AASTOCK Top 20 Stock List Data Real-Time Streaming(https://www.youtube.com/watch?v=jsrTexhlBu4)  
+AASTOCK Top 20 Stock List Data Real-Time Streaming (demo: https://www.youtube.com/watch?v=jsrTexhlBu4)  
 Requirements:  
 	mpl_finance==0.10.0  
 	selenium==3.12.0  
@@ -14,14 +14,13 @@ Requirements:
 	matplotlib==2.0.2  
 	beautifulsoup4==4.6.3  
 
-To get real-time AASTOCK Top 20 Stock List Data, run the following script
-	python get_realtime_aastock_top20_stock_data.py
+To get real-time AASTOCK Top 20 Stock List Data, run the following script  
+	python get_realtime_aastock_top20_stock_data.py  
 
 ![Getting AASTOCK top 20 Stock List Data](docs/Getting_AASTOCK_Top20_Stock_List_Data.png)
 
-To display real-time AASTOCK Top 20 Stock List Data on web page, run the following script and 
-navigate to http://localhost:5001
-	python app.py
+To display real-time AASTOCK Top 20 Stock List Data on web page, run the following script and navigate to http://localhost:5001  
+	python app.py  
 
 ![AASTOCK top 20 Stock List Data real-time Streaming results](docs/Top20.png)
 
